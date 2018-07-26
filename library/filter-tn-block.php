@@ -41,7 +41,7 @@ $columns = array(
 	array( 'db' => 'DESCRIPTION',	'dt' => 7 ),
 	array( 'db' => 'VENDOR',		'dt' => 8 ),
 	array( 'db' => 'NAME',			'dt' => 9 ),
-	array( 'db' => 'ADD1',			'dt' => 10 ),
+	array( 'db' => 'ADD1',			'dt' => 10),
 	array( 'db' => 'ADD2',			'dt' => 11),
 	array( 'db' => 'ADD3',			'dt' => 12),
 	array( 'db' => 'ADD4',			'dt' => 13),

@@ -4,13 +4,34 @@
 	<?php 
 		include 'ModelData.php'; 
 		include 'tag-head.php'; 
-	?>	
+	?>
+	<style>
+		.cbtn {
+			background: #92c7eb;
+			background-image: url("assets/img/LogoTelkom.png");
+			background-size: cover;
+			background-position: center;
+			display: inline-block;
+			border: none;
+			padding: 20px;
+			width: 70px;
+			border-radius: 25px;
+			height: 70px;
+			transition: all 0.5s;
+			cursor: pointer;
+		}
+		.cbtn:hover {
+			width: 75px;
+			height: 75px;
+		}
+	</style>
 </head>
 <body>
 	<div class="container">
 		<h1>Data Table ODP E2E</h1>
 
 		<button class="btn btn-primary" data-toggle="modal" data-target="#lab-slide-bottom-popup">Open Modal</button>
+		<button class="cbtn" data-toggle="modal" data-target="#lab-slide-bottom-popup"> 	</button>
 		<div class="modal fade" id="lab-slide-bottom-popup" data-keyboard="false" data-backdrop="false">
 			<div class="lab-modal-body">
 				<button type="button" class="close" data-dismiss="modal" id="close-modal-menu"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
